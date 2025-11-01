@@ -35,6 +35,15 @@
       rel="stylesheet"
     />
 
+    <!-- fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- CSS Files -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="CSS/media_query.css" />
@@ -43,12 +52,20 @@
 
   <body class="vh-100 d-flex justify-content-center align-items-center">
     <div
-      class="container bg-black d-flex justify-content-center align-items-center flex-column overflow-hidden p-4"
+      class="container bg-black d-flex justify-content-center align-items-center flex-column overflow-hidden p-4 position-relative"
     >
+      <i
+        class="fa-solid fa-quote-right text-white position-absolute top-0 end-0 p-3 fs-1"
+      ></i>
+
       <div class="row">
         <div class="col">
           <div>
-            <p id="quotePlace" class="text-white text-center">
+            <p
+              id="quotePlace"
+              class="text-white text-center"
+              aria-live="polite"
+            >
               Press the button below to receive a random quote!
             </p>
           </div>
@@ -64,6 +81,10 @@
           </div>
         </div>
       </div>
+
+      <i
+        class="fa-solid fa-quote-left text-white position-absolute bottom-0 start-0 p-3 fs-1"
+      ></i>
     </div>
 
     <!-- JS Files -->

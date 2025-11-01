@@ -1,4 +1,4 @@
-var arr = [undefined];
+var arr = [];
 var i = 0;
 
 function quoteGeneration() {
