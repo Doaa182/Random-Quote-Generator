@@ -30,6 +30,12 @@ button:hover {
   background-color: var(--white);
 }
 
+button:disabled:hover {
+  cursor: not-allowed;
+  background-color: var(--black);
+  color: var(--white);
+}
+
 :root {
   --beige: #f5daca;
   --white: #ffffff;

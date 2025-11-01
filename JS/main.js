@@ -18,6 +18,16 @@ function quoteGeneration() {
            You have finished your trials :(
         </p>
         `;
+
+      document.getElementById("btns").innerHTML = `
+        <button onclick="quoteGeneration()" class="py-3 px-5" disabled>
+              New Quote
+        </button>
+
+        <button onclick="resetQuotes()" class="py-3 px-5 ms-3">
+              Reset
+        </button>
+        `;
     }
   } else {
     arr[i] = randomNum;
@@ -62,4 +72,19 @@ function quoteGeneration() {
         break;
     }
   }
+}
+
+function resetQuotes() {
+  arr = [];
+  i = 0;
+  document.getElementById("quotePlace").innerHTML = `
+        <p>
+        Press the button below to receive a random quote!
+        </p>
+        `;
+  document.getElementById("btns").innerHTML = `
+        <button onclick="quoteGeneration()" class="py-3 px-5">
+              New Quote
+        </button>
+        `;
 }
