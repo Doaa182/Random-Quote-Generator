@@ -18,16 +18,16 @@ A simple, responsive web app that displays motivational quotes at the click of a
 - **HTML5**  
 - **CSS3**  
 - **Bootstrap 5**  
-- **JavaScript (DOM manipulation)**  
+- **JavaScript (Conditional statements, Arrays, Functions, Math methods, DOM manipulation, Event handling)**  
 - **Google Fonts**  
 - **Font Awesome**
 
 ---
 
-## 🌐 Live Demo
+## 💻 GitHub Repo & Live Demo
 
 🔗 **GitHub Repo:** [Random Quote Generator](https://lnkd.in/dFVkpZr9)  
-🌍 **Live Demo:** [View on GitHub Pages](https://lnkd.in/dmamJazH)
+🌐 **Live Demo:** [View on GitHub Pages](https://lnkd.in/dmamJazH)
 
 ---
 
