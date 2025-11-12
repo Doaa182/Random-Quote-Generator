@@ -38,3 +38,6 @@ A simple, responsive web app that displays motivational quotes at the click of a
 
 ---
 
+## 📸 Screenshot
+<img src="./Assets/screenshot.png" alt="
+Random Quote Generator Mockup" width="600"> 
